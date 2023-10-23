@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Plans.css"
+import Timer from './Timer'
 
 const Plans = () => {
   return (

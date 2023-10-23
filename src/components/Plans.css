@@ -70,11 +70,27 @@
    border-radius: 100vmax;
    font-weight: 700;
    font-family: 'kambh' , sans-serif;
+   cursor: pointer;
+   transition: 1s;
 
 }
 
+.card__button:hover {
+    background-color: rgba(81, 117, 255, 0.3);
+}
+
+.popular button:hover {
+    background-color: white;
+    opacity: 0.8;
+}
+
+
 .tablet__button {
     display: none;
+}
+
+.tablet__button:hover {
+    background-color: rgba(81, 117, 255, 0.3);
 }
 
 
