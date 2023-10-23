@@ -1,0 +1,33 @@
+.footer {
+   
+      
+        background-color: #25293A;
+        
+}
+
+.footer__content {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+@media (min-width: 1024px) {
+    .footer__content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .timer__title {
+        text-align: left;
+    }
+
+    .timer::before {
+        left: -500px;
+        top: -750px;
+        background-size: 1700px;
+    }
+}
