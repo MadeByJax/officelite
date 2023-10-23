@@ -28,6 +28,9 @@
   padding-right: 1.5rem;
 }
 
+.test {
+  background-color: #fafafa;
+}
 /*xs */
 /* xs */
 @media (min-width: 475px) {
