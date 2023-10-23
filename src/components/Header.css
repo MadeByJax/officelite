@@ -1,25 +1,14 @@
-body {
-    overflow-x: hidden;
-}
+
 
 .header {
     position: relative;
-    background-color: #FAFAFA;
     padding-bottom: 40px;
+    background-color: #FAFAFA;
 
 
 }
 
 
-.header__container {
-    padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.header__logo {
-    margin: 0 auto;
-    padding: 0;
-}
 
 .hero__section {
     display: flex;
@@ -64,7 +53,13 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     padding: 14px 41px 14px 41px;
     border-radius: 30px;
-    
+    font-weight: 700;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.hero__button:hover {
+    background-color: rgba(81, 117, 255, 0.8);
 }
 
 .svg__container {
@@ -80,7 +75,7 @@ body {
 @media (min-width: 768px) {
     .hero__section {
         flex-direction: row-reverse;
-        margin-top: 3rem;
+        padding-top: 3rem;
         justify-content: space-between;
 
     }
@@ -99,10 +94,7 @@ body {
         text-align: left;
     }
 
-    .header__logo {
-        margin: 0;
-        padding: 0;
-    }
+   
 
     .svg__container {
       
