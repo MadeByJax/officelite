@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       <header className="container">
         <div className="header__container">
-          <a href="/">
+          <a href="#/officelite">
             <img className="header__logo" src={logo} alt="" />{" "}
           </a>
         </div>
