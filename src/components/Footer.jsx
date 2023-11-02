@@ -12,7 +12,7 @@ const Footer = () => {
           </h3>
           <Timer />
         </div>
-        <a href="/signup">
+        <a href="#/signup">
           <button className="hero__button">Get Started</button>
         </a>
       </div>
