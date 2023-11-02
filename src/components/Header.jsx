@@ -18,7 +18,7 @@ const Header = () => {
             projects. Officelite is the new collaboration platform built with an
             intuitive interface to improve productivity.
           </p>
-          <a href="/officelite/signup">
+          <a href="#/signup">
             <button className="hero__button">Get Started</button>
           </a>
         </div>
