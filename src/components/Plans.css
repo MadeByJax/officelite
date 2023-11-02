@@ -1,151 +1,145 @@
 .plans {
-    padding-block: 100px;
-    background: linear-gradient(180deg, #FAFAFA 50%, #25293A 50%);
-  
+  padding-block: 100px;
+  background: linear-gradient(180deg, #fafafa 50%, #25293a 50%);
 }
 
 .plans__columns {
-    display: grid;
-    gap: 2em;
+  display: grid;
+  gap: 2em;
 }
 
 .card {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    padding: 2em;
-    color: #333950;
-    background-color: white;
-    text-align: center;
-   
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 2em;
+  color: #333950;
+  background-color: white;
+  text-align: center;
 }
 
 .popular {
-    background-color: #5175FF;
-    color: white;
+  background-color: #5175ff;
+  color: white;
 }
 
 .popular ul {
-    color: white;
+  color: white;
 }
 .popular button {
-    background-color: white;
+  background-color: white;
 }
 
-
 .features {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
-    margin-top: 56px;
-    margin-bottom: 32px;
-    color: #747B95;
-    font-family: 'kambh sans', sans-serif;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 56px;
+  margin-bottom: 32px;
+  color: #747b95;
+  font-family: "kambh sans", sans-serif;
 }
 
 .card__price {
-    margin-top: 0.5em;
-    margin-bottom: 0.25em;
-    font-size: 56px;
-    line-height: 64px;
-   
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+  font-size: 56px;
+  line-height: 64px;
 }
 
 .card__tier {
-    font-size: 20px;
-    line-height: 28px;
-   
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .card__button {
-    border: none;
-   color: #5175FF;
-   background-color: rgba(81, 117, 255, 0.1526);
-   padding: 1em 2.5em;
-   border-radius: 100vmax;
-   font-weight: 700;
-   font-family: 'kambh' , sans-serif;
-   cursor: pointer;
-   transition: 1s;
-
+  border: none;
+  color: #5175ff;
+  background-color: rgba(81, 117, 255, 0.1526);
+  padding: 1em 2.5em;
+  border-radius: 100vmax;
+  font-weight: 700;
+  font-family: "kambh", sans-serif;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .card__button:hover {
-    background-color: rgba(81, 117, 255, 0.3);
+  background-color: rgba(81, 117, 255, 0.3);
 }
 
 .popular button:hover {
-    background-color: white;
-    opacity: 0.8;
+  background-color: white;
+  opacity: 0.8;
 }
 
-
 .tablet__button {
-    display: none;
+  display: none;
 }
 
 .tablet__button:hover {
-    background-color: rgba(81, 117, 255, 0.3);
+  background-color: rgba(81, 117, 255, 0.3);
 }
 
+a {
+  text-decoration: none;
+}
 
-  @media (min-width: 768px) {
-    .card {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: left;
-        padding: 48px;
-    }
-
-    .features {
-        margin-right: 20px;
-    }
-
-    .card__button {
-        display: none;
-    }
-
-    .tablet__button {
-        display: block;
-    }
-
-    .card__left {
-        display: grid;
-        gap: 1em;
-    }
-
-    .card__price {
-        margin: 0;
-    }
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 48px;
   }
 
-  @media (min-width: 1024px) {
-    .plans__columns {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .card {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-
-    .features {
-        margin-right: 0;
-    }
-
-  
-
-    .card__button {
-        display: block;
-    }
-
-    .tablet__button {
-        display: none;
-    }
+  .features {
+    margin-right: 20px;
   }
+
+  .card__button {
+    display: none;
+  }
+
+  .tablet__button {
+    display: block;
+  }
+
+  .card__left {
+    display: grid;
+    gap: 1em;
+  }
+
+  .card__price {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .plans__columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .features {
+    margin-right: 0;
+  }
+
+  .card__button {
+    display: block;
+  }
+
+  .tablet__button {
+    display: none;
+  }
+}
