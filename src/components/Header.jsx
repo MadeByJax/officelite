@@ -7,9 +7,7 @@ import circles from "../assets/bg-pattern-header.svg";
 const Header = () => {
   return (
     <div className="header">
-
       <section className="hero__section container">
-
         <img className="hero__charts" src={charts} alt="" />
         <div className="hero__info">
           <h1 className="hero__title">
@@ -20,7 +18,9 @@ const Header = () => {
             projects. Officelite is the new collaboration platform built with an
             intuitive interface to improve productivity.
           </p>
-          <button className="hero__button">Get Started</button>
+          <a href="/signup">
+            <button className="hero__button">Get Started</button>
+          </a>
         </div>
       </section>
     </div>

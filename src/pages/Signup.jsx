@@ -6,8 +6,8 @@ import "./Signup.css";
 const Signup = () => {
   return (
     <div className="signup">
+      <Navbar />
       <div className="container">
-        <Navbar />
         <div className="signup__columns">
           <div>
             <h1 className="signup__title">Work smarter. Save time.</h1>
@@ -20,8 +20,8 @@ const Signup = () => {
               Coming <span>28 Jan 2024</span>
             </h3>
             <div className="timer__container">
-            <Timer />
-            </div> 
+              <Timer />
+            </div>
           </div>
           <form className="form" action="">
             <input type="text" placeholder="Name" />
